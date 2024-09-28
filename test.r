@@ -38,3 +38,17 @@ library(nycflights13)
 # na.rm = TRUE removes NA values
 
 #> select_if(mutated_flights, is.numeric)    #selects only numeric values
+
+#created a mutated file (added column = gain)
+
+#imported flights
+#imported nycflights13
+#imported dbplyr
+#imported tidyverse
+
+#exported mutated_flights into csv file
+#import mutated_flights as a data frame
+#converted the imported_mutated_flights as a data frame as a TIDY VERSE tibble
+
+#colMeans()
+#summarise()
