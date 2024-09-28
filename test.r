@@ -32,3 +32,9 @@ library(nycflights13)
 # good technique.. create a new variable  then assign <- the mutated function to that variable
 
 #arrange()
+
+# summarise(mutated_flights, dep_delay_mean = mean(dep_delay, na.rm = TRUE)
+
+# na.rm = TRUE removes NA values
+
+#> select_if(mutated_flights, is.numeric)    #selects only numeric values
